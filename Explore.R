@@ -8,10 +8,20 @@ library(stringr)
 ## PATHS STUFF
 DATA_FOLDER <- "UCI HAR Dataset"
 FEATURES_PATH <- file.path(DATA_FOLDER, "features.txt")
+
+
+# Helper functions:
+# - ShortFileName: get the name of a file without extension and directory information.
+# - ReadTheTable: the correct way to read the tables in the measures' files.
 ShortFileName <- function(filename) tools::file_path_sans_ext(basename(filename))
 ReadTheTable <- function(f) read_table(f, col_names = FALSE, col_types = c(col_double()))
 
+
 # Helper function: read the test/train tables (return: list key/value => file_path/table)
+# DETAIL:
+# Recursively looks for files in the subdirectory "test" of "UCI HAR Dataset",
+# Reads all the tables and associates them with their (short) file name in a list.
+# The list (list$path == table) is returned.
 GetTablesList <- function(type) {
         paths <- list.files(file.path(DATA_FOLDER, type),
                             recursive = TRUE, pattern = ".txt", full.names = TRUE)
@@ -20,17 +30,25 @@ GetTablesList <- function(type) {
         measures.tables
 }
 
+
 # Helper function: build the measures' column names (retrun: vector of names)
+# DETAIL:
+# Use sapply and a vector-returning function to build m x n labels for every possible
+# combination of "measurement name" - "Window-N"
 GetMeasurementsNames.perWindows <- function(measurements.names) {
         # There are 128 names (windows) per record
-        window.labels <- paste0("W", 1:128)
+        window.labels <- paste0("Window", 1:128)
         labels <- sapply(X = measurements.names,
                          FUN = function(c) paste0(c, ".", window.labels), 
                          simplify = TRUE)
         as.vector(labels)
 }
 
+
 # Helper function: build the features' column names (return: vector of names)
+# DETAIL:
+# The feature names are listed in the second column of the file "features.txt"
+# in the directory "UCI HAR Data set". That column is returned.
 GetFeatureNames <- function() {
         feature.names <- read_delim(file = FEATURES_PATH, delim = " ",
                                     col_names = FALSE,
@@ -38,7 +56,12 @@ GetFeatureNames <- function() {
         as.vector(feature.names)
 }
 
+
 # Return a table and a table of dimenions (return: list with two tables (data/dimensions))
+# Get the list of "test" and "train" tables.
+# The tables in each list are combined column-wise because they are related to the same observation.
+# The two bigger tables (for "test" and "train") are combined row-wise because they correspond
+# to different observations. Together they form the complete dataset.
 GetDataAndDimensions <- function() {
         message(str_interp("Loading data..."))
         tables.list.test <- GetTablesList("test")
@@ -67,7 +90,7 @@ BuildTidy <- function() {
         data.dims <- GetDataAndDimensions()
         table.bind.test <- bind_cols(data.dims$test)
         table.bind.train <- bind_cols(data.dims$train)
-        table.all <- bind_rows(table.bind.test, table.bind.train)
+        tidy.dataset <- bind_rows(table.bind.test, table.bind.train)
         
         #### ncol(table.all) == 1715 ==  128 * 9 + 1 + 561 + 1  ## OK
         
@@ -80,5 +103,3 @@ BuildTidy <- function() {
         names(tidy.dataset) <- all.names
         tidy.dataset
 }
-
-
