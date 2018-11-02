@@ -57,11 +57,12 @@ GetFeatureNames <- function() {
 }
 
 
-# Return a data table and a table of dimensions (return: list with two tables (data/dimensions))
-# Get the list of "test" and "train" tables.
-# The tables in each list are combined column-wise because they are related to the same observation.
-# The two bigger tables (for "test" and "train") are combined row-wise because they correspond
-# to different observations. Together they form the complete dataset.
+# Return a data table and a table of dimensions (return: list with 3 tables (test/train/dimensions))
+# DETAIL:
+# 1. Get the list of "test" and "train" tables.
+# 2. The tables in each list are combined column-wise because they are related to the same observation.
+# 3. The two bigger tables (for "test" and "train") are combined row-wise because they correspond
+# 4. to different observations. Together they form the complete dataset.
 GetDataAndDimensions <- function() {
         message(str_interp("Loading data..."))
         tables.list.test <- GetTablesList("test")
