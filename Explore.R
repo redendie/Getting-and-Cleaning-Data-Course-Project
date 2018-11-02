@@ -57,7 +57,7 @@ GetFeatureNames <- function() {
 }
 
 
-# Return a table and a table of dimenions (return: list with two tables (data/dimensions))
+# Return a data table and a table of dimensions (return: list with two tables (data/dimensions))
 # Get the list of "test" and "train" tables.
 # The tables in each list are combined column-wise because they are related to the same observation.
 # The two bigger tables (for "test" and "train") are combined row-wise because they correspond
