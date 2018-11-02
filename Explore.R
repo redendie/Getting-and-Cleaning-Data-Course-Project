@@ -19,9 +19,9 @@ ReadTheTable <- function(f) read_table(f, col_names = FALSE, col_types = c(col_d
 
 # Helper function: read the test/train tables (return: list key/value => file_path/table)
 # DETAIL:
-# Recursively looks for files in the subdirectory "test" of "UCI HAR Dataset",
-# Reads all the tables and associates them with their (short) file name in a list.
-# The list (list$path == table) is returned.
+# 1. Recursively looks for files in the subdirectory "test" or "train" of "UCI HAR Dataset".
+# 2. Reads all the tables and associates them with their (short) file name in a list.
+# 3. The list (list$path == table) is returned.
 GetTablesList <- function(type) {
         paths <- list.files(file.path(DATA_FOLDER, type),
                             recursive = TRUE, pattern = ".txt", full.names = TRUE)
