@@ -49,9 +49,9 @@ TODO.
 
 The original measurements are recorded in the text files in the `test/Inertial Signals` and `train/Inertial Signals` subdirectories of the main folder. According to the assignment, these files need not be read by the program, since the focus is on the columns containing a mean or a standard deviation.
 
-A first binding work involves (in the case of the test data) binding column-wise the files `test/y_test.txt`, `test/X_test.txt`, and `test/subject_test.txt`. Indeed,  the first row in these three files correspond to the same measurements.
+A first binding work involves (in the case of the test data) binding the files `test/y_test.txt`, `test/X_test.txt`, and `test/subject_test.txt` column-wise. Indeed,  the first row in these three files correspond to the same measurements.
 
-Since the *test* and *train* datasets have been created by simply splitting the original dataset into two groups of non-overlapping datasets, the program will simply bind the two smaller datasets (row-wise) to build the original dataset.
+Since the *test* and *train* datasets have been created by simply splitting the original dataset into two groups of non-overlapping datasets, the program will bind the two smaller datasets row-wise to build the original dataset.
 
 ## The code
 
