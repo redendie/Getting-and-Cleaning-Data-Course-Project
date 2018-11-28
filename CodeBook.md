@@ -39,9 +39,28 @@ The README coming with the dataset gives a succint but complete description of a
         tBodyGyroJerkMean
 
 
+## Subjects
+
+The `subject_train.txt` and `subject_test.txt` file contain a single column of integer values. This integer indentifies the subject on which the measures were taken.
+
+## Activity Labels
+
+The `activity_labels.txt` file contains a description of the different activities the subjects were asked to execute, along their code that is used as explained variable. In the produced dataset, it was asked to replace these codes by their labels.
+
+Here are the activity codes and labels:
+
+Code | Label
+-----+------
+1    | WALKING
+2    | WALKING_UPSTAIRS
+3    | WALKING_DOWNSTAIRS
+4    | SITTING
+5    | STANDING
+6    | LAYING
 
 ## Details for each feature
 
+All these variables are small real numbers (usally smaller than 1 in absolute value).
 
 *tBodyAcc-mean()-X*
 
