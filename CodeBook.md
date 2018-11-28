@@ -49,14 +49,14 @@ The `activity_labels.txt` file contains a description of the different activitie
 
 Here are the activity codes and labels:
 
-Code | Label
------+------
-1    | WALKING
-2    | WALKING_UPSTAIRS
-3    | WALKING_DOWNSTAIRS
-4    | SITTING
-5    | STANDING
-6    | LAYING
+|Code | Label|
+|-----|------|
+|1    | WALKING|
+|2    | WALKING_UPSTAIRS|
+|3    | WALKING_DOWNSTAIRS|
+|4    | SITTING|
+|5    | STANDING|
+|6    | LAYING|
 
 ## Details for each feature
 
