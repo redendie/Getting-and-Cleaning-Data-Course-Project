@@ -2,7 +2,7 @@
 
 ## Structure of this repository
 
-The description of the data, and a description of the program can be found in `Code Book.md`.
+The description of the data can be found in `CodeBook.md`.
 
 The program, as required, is named `run_analysis.R`.
 
