@@ -49,9 +49,6 @@ The other files are either not needed (see assignment) or are informational docu
 
 The folder UCI HAR Dataset will be created if necessary when unzipping the downloaded archive.
 
-## Variables in the datasets
-
-TODO.
 
 ## Data Tidying
 
