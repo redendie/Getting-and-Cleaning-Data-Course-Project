@@ -60,7 +60,7 @@ Here are the activity codes and labels:
 
 ## Details for each feature
 
-All these variables are small real numbers (usally smaller than 1 in absolute value).
+All these variables are small real numbers (usually smaller than 1 in absolute value).
 
 *tBodyAcc-mean()-X*
 
