@@ -1,5 +1,7 @@
 # Code Book
 
+For the requested analysis, there is no need to modify data or compute particular aggregates. Therefore the codebook only lists the data that was used to perform the analysis. Note that the initial measures (in the `Inertial Signals` subfolder coming with the archive) are not used directly, but indirectly through the *features*.
+
 The README coming with the dataset gives a succint but complete description of all the variables:
 
 > The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
