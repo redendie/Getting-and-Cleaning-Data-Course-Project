@@ -86,7 +86,7 @@ get_data <- function(type) {
 }
 ```
 
-The function firtst checks if there is a need to download the files. The code is written using a declarative style, without the need to explicitly write the names of the files that are read. The `lapply` function takes care of reading *all* the files in the folder `"test"` or `"train"`. When all the files are bound together, we don't about the origin of all these columns anymore!
+The function first checks if there is a need to download the files. The code is written using a declarative style, without the need to explicitly write the names of the files that are read. The `lapply` function takes care of reading *all* the files in the folder `"test"` or `"train"`. When all the files are bound together, we don't about the origin of all these columns anymore!
 
 #### **build_tidy_dataset()**
 
