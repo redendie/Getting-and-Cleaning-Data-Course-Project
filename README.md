@@ -112,7 +112,7 @@ run_analysis <- function() {
         tidy.mean.std %>%
                 group_by(Subject, Activity) %>%
                 summarize_all(.funs = mean) %>%
-                write.table(file = "tidy_by_subject_activity.csv", sep = ",", row.names = FALSE)
+                write.table(file = "tidy_by_subject_activity.txt", sep = ",", row.names = FALSE)
         # Read with: readr::read_csv("tidy_by_subject_activity.csv", col_names = TRUE)
 }
 ```
