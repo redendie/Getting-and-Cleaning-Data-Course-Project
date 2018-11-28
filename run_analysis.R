@@ -30,3 +30,4 @@ run_analysis <- function() {
                 write.table(file = "tidy_by_subject_activity.csv", sep = ",", row.names = FALSE)
         # Read with: readr::read_csv("tidy_by_subject_activity.csv", col_names = TRUE)
 }
+run_analysis()
