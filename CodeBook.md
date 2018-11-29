@@ -62,20 +62,7 @@ Here are the activity codes and labels:
 
 All these variables are small real numbers (usually smaller than 1 in absolute value).
 
-angle------------
-angle------------
-angle------------
-angle------------
-angle------------
-angle------------
-angle------------
-angle------------
-angle------------
-angle------------
-angle------------
-angle------------
-angle------------
-angle------------
+
 *tBodyAcc-mean()-X*
 
 	Mean value, of feature tBodyAcc, along the X axis.
