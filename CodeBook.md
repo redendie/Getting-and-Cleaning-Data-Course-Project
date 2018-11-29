@@ -62,6 +62,20 @@ Here are the activity codes and labels:
 
 All these variables are small real numbers (usually smaller than 1 in absolute value).
 
+angle------------
+angle------------
+angle------------
+angle------------
+angle------------
+angle------------
+angle------------
+angle------------
+angle------------
+angle------------
+angle------------
+angle------------
+angle------------
+angle------------
 *tBodyAcc-mean()-X*
 
 	Mean value, of feature tBodyAcc, along the X axis.
@@ -124,7 +138,7 @@ All these variables are small real numbers (usually smaller than 1 in absolute v
 
 *tBodyAcc-sma()*
 
-	Smallest value in array, of feature: tBodyAcc
+	Signal magnitude area, of feature: tBodyAcc
 
 *tBodyAcc-energy()-X*
 
@@ -164,63 +178,63 @@ All these variables are small real numbers (usually smaller than 1 in absolute v
 
 *tBodyAcc-arCoeff()-X,1*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAcc, along the X axis, and with parameter 1.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAcc, with parameters X,1.
 
 *tBodyAcc-arCoeff()-X,2*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAcc, along the X axis, and with parameter 2.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAcc, with parameters X,2.
 
 *tBodyAcc-arCoeff()-X,3*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAcc, along the X axis, and with parameter 3.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAcc, with parameters X,3.
 
 *tBodyAcc-arCoeff()-X,4*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAcc, along the X axis, and with parameter 4.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAcc, with parameters X,4.
 
 *tBodyAcc-arCoeff()-Y,1*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAcc, along the Y axis, and with parameter 1.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAcc, with parameters Y,1.
 
 *tBodyAcc-arCoeff()-Y,2*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAcc, along the Y axis, and with parameter 2.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAcc, with parameters Y,2.
 
 *tBodyAcc-arCoeff()-Y,3*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAcc, along the Y axis, and with parameter 3.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAcc, with parameters Y,3.
 
 *tBodyAcc-arCoeff()-Y,4*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAcc, along the Y axis, and with parameter 4.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAcc, with parameters Y,4.
 
 *tBodyAcc-arCoeff()-Z,1*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAcc, along the Z axis, and with parameter 1.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAcc, with parameters Z,1.
 
 *tBodyAcc-arCoeff()-Z,2*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAcc, along the Z axis, and with parameter 2.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAcc, with parameters Z,2.
 
 *tBodyAcc-arCoeff()-Z,3*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAcc, along the Z axis, and with parameter 3.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAcc, with parameters Z,3.
 
 *tBodyAcc-arCoeff()-Z,4*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAcc, along the Z axis, and with parameter 4.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAcc, with parameters Z,4.
 
 *tBodyAcc-correlation()-X,Y*
 
-	correlation coefficient between two signals, of feature tBodyAcc, along axes X and Y.
+	correlation coefficient between two signals, of feature tBodyAcc, with parameters X,Y.
 
 *tBodyAcc-correlation()-X,Z*
 
-	correlation coefficient between two signals, of feature tBodyAcc, along axes X and Z.
+	correlation coefficient between two signals, of feature tBodyAcc, with parameters X,Z.
 
 *tBodyAcc-correlation()-Y,Z*
 
-	correlation coefficient between two signals, of feature tBodyAcc, along axes Y and Z.
+	correlation coefficient between two signals, of feature tBodyAcc, with parameters Y,Z.
 
 *tGravityAcc-mean()-X*
 
@@ -284,7 +298,7 @@ All these variables are small real numbers (usually smaller than 1 in absolute v
 
 *tGravityAcc-sma()*
 
-	Smallest value in array, of feature: tGravityAcc
+	Signal magnitude area, of feature: tGravityAcc
 
 *tGravityAcc-energy()-X*
 
@@ -324,63 +338,63 @@ All these variables are small real numbers (usually smaller than 1 in absolute v
 
 *tGravityAcc-arCoeff()-X,1*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tGravityAcc, along the X axis, and with parameter 1.
+	Autorregresion coefficients with Burg order equal to 4, of feature tGravityAcc, with parameters X,1.
 
 *tGravityAcc-arCoeff()-X,2*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tGravityAcc, along the X axis, and with parameter 2.
+	Autorregresion coefficients with Burg order equal to 4, of feature tGravityAcc, with parameters X,2.
 
 *tGravityAcc-arCoeff()-X,3*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tGravityAcc, along the X axis, and with parameter 3.
+	Autorregresion coefficients with Burg order equal to 4, of feature tGravityAcc, with parameters X,3.
 
 *tGravityAcc-arCoeff()-X,4*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tGravityAcc, along the X axis, and with parameter 4.
+	Autorregresion coefficients with Burg order equal to 4, of feature tGravityAcc, with parameters X,4.
 
 *tGravityAcc-arCoeff()-Y,1*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tGravityAcc, along the Y axis, and with parameter 1.
+	Autorregresion coefficients with Burg order equal to 4, of feature tGravityAcc, with parameters Y,1.
 
 *tGravityAcc-arCoeff()-Y,2*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tGravityAcc, along the Y axis, and with parameter 2.
+	Autorregresion coefficients with Burg order equal to 4, of feature tGravityAcc, with parameters Y,2.
 
 *tGravityAcc-arCoeff()-Y,3*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tGravityAcc, along the Y axis, and with parameter 3.
+	Autorregresion coefficients with Burg order equal to 4, of feature tGravityAcc, with parameters Y,3.
 
 *tGravityAcc-arCoeff()-Y,4*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tGravityAcc, along the Y axis, and with parameter 4.
+	Autorregresion coefficients with Burg order equal to 4, of feature tGravityAcc, with parameters Y,4.
 
 *tGravityAcc-arCoeff()-Z,1*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tGravityAcc, along the Z axis, and with parameter 1.
+	Autorregresion coefficients with Burg order equal to 4, of feature tGravityAcc, with parameters Z,1.
 
 *tGravityAcc-arCoeff()-Z,2*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tGravityAcc, along the Z axis, and with parameter 2.
+	Autorregresion coefficients with Burg order equal to 4, of feature tGravityAcc, with parameters Z,2.
 
 *tGravityAcc-arCoeff()-Z,3*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tGravityAcc, along the Z axis, and with parameter 3.
+	Autorregresion coefficients with Burg order equal to 4, of feature tGravityAcc, with parameters Z,3.
 
 *tGravityAcc-arCoeff()-Z,4*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tGravityAcc, along the Z axis, and with parameter 4.
+	Autorregresion coefficients with Burg order equal to 4, of feature tGravityAcc, with parameters Z,4.
 
 *tGravityAcc-correlation()-X,Y*
 
-	correlation coefficient between two signals, of feature tGravityAcc, along axes X and Y.
+	correlation coefficient between two signals, of feature tGravityAcc, with parameters X,Y.
 
 *tGravityAcc-correlation()-X,Z*
 
-	correlation coefficient between two signals, of feature tGravityAcc, along axes X and Z.
+	correlation coefficient between two signals, of feature tGravityAcc, with parameters X,Z.
 
 *tGravityAcc-correlation()-Y,Z*
 
-	correlation coefficient between two signals, of feature tGravityAcc, along axes Y and Z.
+	correlation coefficient between two signals, of feature tGravityAcc, with parameters Y,Z.
 
 *tBodyAccJerk-mean()-X*
 
@@ -444,7 +458,7 @@ All these variables are small real numbers (usually smaller than 1 in absolute v
 
 *tBodyAccJerk-sma()*
 
-	Smallest value in array, of feature: tBodyAccJerk
+	Signal magnitude area, of feature: tBodyAccJerk
 
 *tBodyAccJerk-energy()-X*
 
@@ -484,63 +498,63 @@ All these variables are small real numbers (usually smaller than 1 in absolute v
 
 *tBodyAccJerk-arCoeff()-X,1*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAccJerk, along the X axis, and with parameter 1.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAccJerk, with parameters X,1.
 
 *tBodyAccJerk-arCoeff()-X,2*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAccJerk, along the X axis, and with parameter 2.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAccJerk, with parameters X,2.
 
 *tBodyAccJerk-arCoeff()-X,3*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAccJerk, along the X axis, and with parameter 3.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAccJerk, with parameters X,3.
 
 *tBodyAccJerk-arCoeff()-X,4*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAccJerk, along the X axis, and with parameter 4.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAccJerk, with parameters X,4.
 
 *tBodyAccJerk-arCoeff()-Y,1*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAccJerk, along the Y axis, and with parameter 1.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAccJerk, with parameters Y,1.
 
 *tBodyAccJerk-arCoeff()-Y,2*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAccJerk, along the Y axis, and with parameter 2.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAccJerk, with parameters Y,2.
 
 *tBodyAccJerk-arCoeff()-Y,3*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAccJerk, along the Y axis, and with parameter 3.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAccJerk, with parameters Y,3.
 
 *tBodyAccJerk-arCoeff()-Y,4*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAccJerk, along the Y axis, and with parameter 4.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAccJerk, with parameters Y,4.
 
 *tBodyAccJerk-arCoeff()-Z,1*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAccJerk, along the Z axis, and with parameter 1.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAccJerk, with parameters Z,1.
 
 *tBodyAccJerk-arCoeff()-Z,2*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAccJerk, along the Z axis, and with parameter 2.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAccJerk, with parameters Z,2.
 
 *tBodyAccJerk-arCoeff()-Z,3*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAccJerk, along the Z axis, and with parameter 3.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAccJerk, with parameters Z,3.
 
 *tBodyAccJerk-arCoeff()-Z,4*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAccJerk, along the Z axis, and with parameter 4.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyAccJerk, with parameters Z,4.
 
 *tBodyAccJerk-correlation()-X,Y*
 
-	correlation coefficient between two signals, of feature tBodyAccJerk, along axes X and Y.
+	correlation coefficient between two signals, of feature tBodyAccJerk, with parameters X,Y.
 
 *tBodyAccJerk-correlation()-X,Z*
 
-	correlation coefficient between two signals, of feature tBodyAccJerk, along axes X and Z.
+	correlation coefficient between two signals, of feature tBodyAccJerk, with parameters X,Z.
 
 *tBodyAccJerk-correlation()-Y,Z*
 
-	correlation coefficient between two signals, of feature tBodyAccJerk, along axes Y and Z.
+	correlation coefficient between two signals, of feature tBodyAccJerk, with parameters Y,Z.
 
 *tBodyGyro-mean()-X*
 
@@ -604,7 +618,7 @@ All these variables are small real numbers (usually smaller than 1 in absolute v
 
 *tBodyGyro-sma()*
 
-	Smallest value in array, of feature: tBodyGyro
+	Signal magnitude area, of feature: tBodyGyro
 
 *tBodyGyro-energy()-X*
 
@@ -644,63 +658,63 @@ All these variables are small real numbers (usually smaller than 1 in absolute v
 
 *tBodyGyro-arCoeff()-X,1*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyro, along the X axis, and with parameter 1.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyro, with parameters X,1.
 
 *tBodyGyro-arCoeff()-X,2*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyro, along the X axis, and with parameter 2.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyro, with parameters X,2.
 
 *tBodyGyro-arCoeff()-X,3*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyro, along the X axis, and with parameter 3.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyro, with parameters X,3.
 
 *tBodyGyro-arCoeff()-X,4*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyro, along the X axis, and with parameter 4.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyro, with parameters X,4.
 
 *tBodyGyro-arCoeff()-Y,1*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyro, along the Y axis, and with parameter 1.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyro, with parameters Y,1.
 
 *tBodyGyro-arCoeff()-Y,2*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyro, along the Y axis, and with parameter 2.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyro, with parameters Y,2.
 
 *tBodyGyro-arCoeff()-Y,3*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyro, along the Y axis, and with parameter 3.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyro, with parameters Y,3.
 
 *tBodyGyro-arCoeff()-Y,4*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyro, along the Y axis, and with parameter 4.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyro, with parameters Y,4.
 
 *tBodyGyro-arCoeff()-Z,1*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyro, along the Z axis, and with parameter 1.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyro, with parameters Z,1.
 
 *tBodyGyro-arCoeff()-Z,2*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyro, along the Z axis, and with parameter 2.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyro, with parameters Z,2.
 
 *tBodyGyro-arCoeff()-Z,3*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyro, along the Z axis, and with parameter 3.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyro, with parameters Z,3.
 
 *tBodyGyro-arCoeff()-Z,4*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyro, along the Z axis, and with parameter 4.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyro, with parameters Z,4.
 
 *tBodyGyro-correlation()-X,Y*
 
-	correlation coefficient between two signals, of feature tBodyGyro, along axes X and Y.
+	correlation coefficient between two signals, of feature tBodyGyro, with parameters X,Y.
 
 *tBodyGyro-correlation()-X,Z*
 
-	correlation coefficient between two signals, of feature tBodyGyro, along axes X and Z.
+	correlation coefficient between two signals, of feature tBodyGyro, with parameters X,Z.
 
 *tBodyGyro-correlation()-Y,Z*
 
-	correlation coefficient between two signals, of feature tBodyGyro, along axes Y and Z.
+	correlation coefficient between two signals, of feature tBodyGyro, with parameters Y,Z.
 
 *tBodyGyroJerk-mean()-X*
 
@@ -764,7 +778,7 @@ All these variables are small real numbers (usually smaller than 1 in absolute v
 
 *tBodyGyroJerk-sma()*
 
-	Smallest value in array, of feature: tBodyGyroJerk
+	Signal magnitude area, of feature: tBodyGyroJerk
 
 *tBodyGyroJerk-energy()-X*
 
@@ -804,323 +818,323 @@ All these variables are small real numbers (usually smaller than 1 in absolute v
 
 *tBodyGyroJerk-arCoeff()-X,1*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyroJerk, along the X axis, and with parameter 1.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyroJerk, with parameters X,1.
 
 *tBodyGyroJerk-arCoeff()-X,2*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyroJerk, along the X axis, and with parameter 2.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyroJerk, with parameters X,2.
 
 *tBodyGyroJerk-arCoeff()-X,3*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyroJerk, along the X axis, and with parameter 3.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyroJerk, with parameters X,3.
 
 *tBodyGyroJerk-arCoeff()-X,4*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyroJerk, along the X axis, and with parameter 4.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyroJerk, with parameters X,4.
 
 *tBodyGyroJerk-arCoeff()-Y,1*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyroJerk, along the Y axis, and with parameter 1.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyroJerk, with parameters Y,1.
 
 *tBodyGyroJerk-arCoeff()-Y,2*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyroJerk, along the Y axis, and with parameter 2.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyroJerk, with parameters Y,2.
 
 *tBodyGyroJerk-arCoeff()-Y,3*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyroJerk, along the Y axis, and with parameter 3.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyroJerk, with parameters Y,3.
 
 *tBodyGyroJerk-arCoeff()-Y,4*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyroJerk, along the Y axis, and with parameter 4.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyroJerk, with parameters Y,4.
 
 *tBodyGyroJerk-arCoeff()-Z,1*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyroJerk, along the Z axis, and with parameter 1.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyroJerk, with parameters Z,1.
 
 *tBodyGyroJerk-arCoeff()-Z,2*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyroJerk, along the Z axis, and with parameter 2.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyroJerk, with parameters Z,2.
 
 *tBodyGyroJerk-arCoeff()-Z,3*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyroJerk, along the Z axis, and with parameter 3.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyroJerk, with parameters Z,3.
 
 *tBodyGyroJerk-arCoeff()-Z,4*
 
-	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyroJerk, along the Z axis, and with parameter 4.
+	Autorregresion coefficients with Burg order equal to 4, of feature tBodyGyroJerk, with parameters Z,4.
 
 *tBodyGyroJerk-correlation()-X,Y*
 
-	correlation coefficient between two signals, of feature tBodyGyroJerk, along axes X and Y.
+	correlation coefficient between two signals, of feature tBodyGyroJerk, with parameters X,Y.
 
 *tBodyGyroJerk-correlation()-X,Z*
 
-	correlation coefficient between two signals, of feature tBodyGyroJerk, along axes X and Z.
+	correlation coefficient between two signals, of feature tBodyGyroJerk, with parameters X,Z.
 
 *tBodyGyroJerk-correlation()-Y,Z*
 
-	correlation coefficient between two signals, of feature tBodyGyroJerk, along axes Y and Z.
+	correlation coefficient between two signals, of feature tBodyGyroJerk, with parameters Y,Z.
 
 *tBodyAccMag-mean()*
 
-	correlation coefficient between two signals, of feature: tBodyGyroJerk
+	Mean value, of feature: tBodyAccMag
 
 *tBodyAccMag-std()*
 
-	Mean value, of feature: tBodyAccMag
+	Standard deviation, of feature: tBodyAccMag
 
 *tBodyAccMag-mad()*
 
-	Standard deviation, of feature: tBodyAccMag
+	Median absolute deviation, of feature: tBodyAccMag
 
 *tBodyAccMag-max()*
 
-	Median absolute deviation, of feature: tBodyAccMag
+	Largest value in array, of feature: tBodyAccMag
 
 *tBodyAccMag-min()*
 
-	Largest value in array, of feature: tBodyAccMag
+	Smallest value in array, of feature: tBodyAccMag
 
 *tBodyAccMag-sma()*
 
-	Smallest value in array, of feature: tBodyAccMag
+	Signal magnitude area, of feature: tBodyAccMag
 
 *tBodyAccMag-energy()*
 
-	Signal magnitude area, of feature: tBodyAccMag
+	Energy measure. Sum of the squares divided by the number of values, of feature: tBodyAccMag
 
 *tBodyAccMag-iqr()*
 
-	Energy measure. Sum of the squares divided by the number of values, of feature: tBodyAccMag
+	Interquartile range, of feature: tBodyAccMag
 
 *tBodyAccMag-entropy()*
 
-	Interquartile range, of feature: tBodyAccMag
+	Signal entropy, of feature: tBodyAccMag
 
 *tBodyAccMag-arCoeff()1*
 
-	Signal entropy, of feature: tBodyAccMag
+	arCoeff()1 (not recognized), of feature: tBodyAccMag
 
 *tBodyAccMag-arCoeff()2*
 
-	arCoeff()1 (not recognized), of feature: tBodyAccMag
+	arCoeff()2 (not recognized), of feature: tBodyAccMag
 
 *tBodyAccMag-arCoeff()3*
 
-	arCoeff()2 (not recognized), of feature: tBodyAccMag
+	arCoeff()3 (not recognized), of feature: tBodyAccMag
 
 *tBodyAccMag-arCoeff()4*
 
-	arCoeff()3 (not recognized), of feature: tBodyAccMag
+	arCoeff()4 (not recognized), of feature: tBodyAccMag
 
 *tGravityAccMag-mean()*
 
-	arCoeff()4 (not recognized), of feature: tBodyAccMag
+	Mean value, of feature: tGravityAccMag
 
 *tGravityAccMag-std()*
 
-	Mean value, of feature: tGravityAccMag
+	Standard deviation, of feature: tGravityAccMag
 
 *tGravityAccMag-mad()*
 
-	Standard deviation, of feature: tGravityAccMag
+	Median absolute deviation, of feature: tGravityAccMag
 
 *tGravityAccMag-max()*
 
-	Median absolute deviation, of feature: tGravityAccMag
+	Largest value in array, of feature: tGravityAccMag
 
 *tGravityAccMag-min()*
 
-	Largest value in array, of feature: tGravityAccMag
+	Smallest value in array, of feature: tGravityAccMag
 
 *tGravityAccMag-sma()*
 
-	Smallest value in array, of feature: tGravityAccMag
+	Signal magnitude area, of feature: tGravityAccMag
 
 *tGravityAccMag-energy()*
 
-	Signal magnitude area, of feature: tGravityAccMag
+	Energy measure. Sum of the squares divided by the number of values, of feature: tGravityAccMag
 
 *tGravityAccMag-iqr()*
 
-	Energy measure. Sum of the squares divided by the number of values, of feature: tGravityAccMag
+	Interquartile range, of feature: tGravityAccMag
 
 *tGravityAccMag-entropy()*
 
-	Interquartile range, of feature: tGravityAccMag
+	Signal entropy, of feature: tGravityAccMag
 
 *tGravityAccMag-arCoeff()1*
 
-	Signal entropy, of feature: tGravityAccMag
+	arCoeff()1 (not recognized), of feature: tGravityAccMag
 
 *tGravityAccMag-arCoeff()2*
 
-	arCoeff()1 (not recognized), of feature: tGravityAccMag
+	arCoeff()2 (not recognized), of feature: tGravityAccMag
 
 *tGravityAccMag-arCoeff()3*
 
-	arCoeff()2 (not recognized), of feature: tGravityAccMag
+	arCoeff()3 (not recognized), of feature: tGravityAccMag
 
 *tGravityAccMag-arCoeff()4*
 
-	arCoeff()3 (not recognized), of feature: tGravityAccMag
+	arCoeff()4 (not recognized), of feature: tGravityAccMag
 
 *tBodyAccJerkMag-mean()*
 
-	arCoeff()4 (not recognized), of feature: tGravityAccMag
+	Mean value, of feature: tBodyAccJerkMag
 
 *tBodyAccJerkMag-std()*
 
-	Mean value, of feature: tBodyAccJerkMag
+	Standard deviation, of feature: tBodyAccJerkMag
 
 *tBodyAccJerkMag-mad()*
 
-	Standard deviation, of feature: tBodyAccJerkMag
+	Median absolute deviation, of feature: tBodyAccJerkMag
 
 *tBodyAccJerkMag-max()*
 
-	Median absolute deviation, of feature: tBodyAccJerkMag
+	Largest value in array, of feature: tBodyAccJerkMag
 
 *tBodyAccJerkMag-min()*
 
-	Largest value in array, of feature: tBodyAccJerkMag
+	Smallest value in array, of feature: tBodyAccJerkMag
 
 *tBodyAccJerkMag-sma()*
 
-	Smallest value in array, of feature: tBodyAccJerkMag
+	Signal magnitude area, of feature: tBodyAccJerkMag
 
 *tBodyAccJerkMag-energy()*
 
-	Signal magnitude area, of feature: tBodyAccJerkMag
+	Energy measure. Sum of the squares divided by the number of values, of feature: tBodyAccJerkMag
 
 *tBodyAccJerkMag-iqr()*
 
-	Energy measure. Sum of the squares divided by the number of values, of feature: tBodyAccJerkMag
+	Interquartile range, of feature: tBodyAccJerkMag
 
 *tBodyAccJerkMag-entropy()*
 
-	Interquartile range, of feature: tBodyAccJerkMag
+	Signal entropy, of feature: tBodyAccJerkMag
 
 *tBodyAccJerkMag-arCoeff()1*
 
-	Signal entropy, of feature: tBodyAccJerkMag
+	arCoeff()1 (not recognized), of feature: tBodyAccJerkMag
 
 *tBodyAccJerkMag-arCoeff()2*
 
-	arCoeff()1 (not recognized), of feature: tBodyAccJerkMag
+	arCoeff()2 (not recognized), of feature: tBodyAccJerkMag
 
 *tBodyAccJerkMag-arCoeff()3*
 
-	arCoeff()2 (not recognized), of feature: tBodyAccJerkMag
+	arCoeff()3 (not recognized), of feature: tBodyAccJerkMag
 
 *tBodyAccJerkMag-arCoeff()4*
 
-	arCoeff()3 (not recognized), of feature: tBodyAccJerkMag
+	arCoeff()4 (not recognized), of feature: tBodyAccJerkMag
 
 *tBodyGyroMag-mean()*
 
-	arCoeff()4 (not recognized), of feature: tBodyAccJerkMag
+	Mean value, of feature: tBodyGyroMag
 
 *tBodyGyroMag-std()*
 
-	Mean value, of feature: tBodyGyroMag
+	Standard deviation, of feature: tBodyGyroMag
 
 *tBodyGyroMag-mad()*
 
-	Standard deviation, of feature: tBodyGyroMag
+	Median absolute deviation, of feature: tBodyGyroMag
 
 *tBodyGyroMag-max()*
 
-	Median absolute deviation, of feature: tBodyGyroMag
+	Largest value in array, of feature: tBodyGyroMag
 
 *tBodyGyroMag-min()*
 
-	Largest value in array, of feature: tBodyGyroMag
+	Smallest value in array, of feature: tBodyGyroMag
 
 *tBodyGyroMag-sma()*
 
-	Smallest value in array, of feature: tBodyGyroMag
+	Signal magnitude area, of feature: tBodyGyroMag
 
 *tBodyGyroMag-energy()*
 
-	Signal magnitude area, of feature: tBodyGyroMag
+	Energy measure. Sum of the squares divided by the number of values, of feature: tBodyGyroMag
 
 *tBodyGyroMag-iqr()*
 
-	Energy measure. Sum of the squares divided by the number of values, of feature: tBodyGyroMag
+	Interquartile range, of feature: tBodyGyroMag
 
 *tBodyGyroMag-entropy()*
 
-	Interquartile range, of feature: tBodyGyroMag
+	Signal entropy, of feature: tBodyGyroMag
 
 *tBodyGyroMag-arCoeff()1*
 
-	Signal entropy, of feature: tBodyGyroMag
+	arCoeff()1 (not recognized), of feature: tBodyGyroMag
 
 *tBodyGyroMag-arCoeff()2*
 
-	arCoeff()1 (not recognized), of feature: tBodyGyroMag
+	arCoeff()2 (not recognized), of feature: tBodyGyroMag
 
 *tBodyGyroMag-arCoeff()3*
 
-	arCoeff()2 (not recognized), of feature: tBodyGyroMag
+	arCoeff()3 (not recognized), of feature: tBodyGyroMag
 
 *tBodyGyroMag-arCoeff()4*
 
-	arCoeff()3 (not recognized), of feature: tBodyGyroMag
+	arCoeff()4 (not recognized), of feature: tBodyGyroMag
 
 *tBodyGyroJerkMag-mean()*
 
-	arCoeff()4 (not recognized), of feature: tBodyGyroMag
+	Mean value, of feature: tBodyGyroJerkMag
 
 *tBodyGyroJerkMag-std()*
 
-	Mean value, of feature: tBodyGyroJerkMag
+	Standard deviation, of feature: tBodyGyroJerkMag
 
 *tBodyGyroJerkMag-mad()*
 
-	Standard deviation, of feature: tBodyGyroJerkMag
+	Median absolute deviation, of feature: tBodyGyroJerkMag
 
 *tBodyGyroJerkMag-max()*
 
-	Median absolute deviation, of feature: tBodyGyroJerkMag
+	Largest value in array, of feature: tBodyGyroJerkMag
 
 *tBodyGyroJerkMag-min()*
 
-	Largest value in array, of feature: tBodyGyroJerkMag
+	Smallest value in array, of feature: tBodyGyroJerkMag
 
 *tBodyGyroJerkMag-sma()*
 
-	Smallest value in array, of feature: tBodyGyroJerkMag
+	Signal magnitude area, of feature: tBodyGyroJerkMag
 
 *tBodyGyroJerkMag-energy()*
 
-	Signal magnitude area, of feature: tBodyGyroJerkMag
+	Energy measure. Sum of the squares divided by the number of values, of feature: tBodyGyroJerkMag
 
 *tBodyGyroJerkMag-iqr()*
 
-	Energy measure. Sum of the squares divided by the number of values, of feature: tBodyGyroJerkMag
+	Interquartile range, of feature: tBodyGyroJerkMag
 
 *tBodyGyroJerkMag-entropy()*
 
-	Interquartile range, of feature: tBodyGyroJerkMag
+	Signal entropy, of feature: tBodyGyroJerkMag
 
 *tBodyGyroJerkMag-arCoeff()1*
 
-	Signal entropy, of feature: tBodyGyroJerkMag
+	arCoeff()1 (not recognized), of feature: tBodyGyroJerkMag
 
 *tBodyGyroJerkMag-arCoeff()2*
 
-	arCoeff()1 (not recognized), of feature: tBodyGyroJerkMag
+	arCoeff()2 (not recognized), of feature: tBodyGyroJerkMag
 
 *tBodyGyroJerkMag-arCoeff()3*
 
-	arCoeff()2 (not recognized), of feature: tBodyGyroJerkMag
+	arCoeff()3 (not recognized), of feature: tBodyGyroJerkMag
 
 *tBodyGyroJerkMag-arCoeff()4*
 
-	arCoeff()3 (not recognized), of feature: tBodyGyroJerkMag
+	arCoeff()4 (not recognized), of feature: tBodyGyroJerkMag
 
 *fBodyAcc-mean()-X*
 
@@ -1184,7 +1198,7 @@ All these variables are small real numbers (usually smaller than 1 in absolute v
 
 *fBodyAcc-sma()*
 
-	Smallest value in array, of feature: fBodyAcc
+	Signal magnitude area, of feature: fBodyAcc
 
 *fBodyAcc-energy()-X*
 
@@ -1500,7 +1514,7 @@ All these variables are small real numbers (usually smaller than 1 in absolute v
 
 *fBodyAccJerk-sma()*
 
-	Smallest value in array, of feature: fBodyAccJerk
+	Signal magnitude area, of feature: fBodyAccJerk
 
 *fBodyAccJerk-energy()-X*
 
@@ -1816,7 +1830,7 @@ All these variables are small real numbers (usually smaller than 1 in absolute v
 
 *fBodyGyro-sma()*
 
-	Smallest value in array, of feature: fBodyGyro
+	Signal magnitude area, of feature: fBodyGyro
 
 *fBodyGyro-energy()-X*
 
@@ -2072,237 +2086,237 @@ All these variables are small real numbers (usually smaller than 1 in absolute v
 
 *fBodyAccMag-mean()*
 
-	Energy of a frequency interval within the 64 bins of the FFT of each window, of feature: fBodyGyro
+	Mean value, of feature: fBodyAccMag
 
 *fBodyAccMag-std()*
 
-	Mean value, of feature: fBodyAccMag
+	Standard deviation, of feature: fBodyAccMag
 
 *fBodyAccMag-mad()*
 
-	Standard deviation, of feature: fBodyAccMag
+	Median absolute deviation, of feature: fBodyAccMag
 
 *fBodyAccMag-max()*
 
-	Median absolute deviation, of feature: fBodyAccMag
+	Largest value in array, of feature: fBodyAccMag
 
 *fBodyAccMag-min()*
 
-	Largest value in array, of feature: fBodyAccMag
+	Smallest value in array, of feature: fBodyAccMag
 
 *fBodyAccMag-sma()*
 
-	Smallest value in array, of feature: fBodyAccMag
+	Signal magnitude area, of feature: fBodyAccMag
 
 *fBodyAccMag-energy()*
 
-	Signal magnitude area, of feature: fBodyAccMag
+	Energy measure. Sum of the squares divided by the number of values, of feature: fBodyAccMag
 
 *fBodyAccMag-iqr()*
 
-	Energy measure. Sum of the squares divided by the number of values, of feature: fBodyAccMag
+	Interquartile range, of feature: fBodyAccMag
 
 *fBodyAccMag-entropy()*
 
-	Interquartile range, of feature: fBodyAccMag
+	Signal entropy, of feature: fBodyAccMag
 
 *fBodyAccMag-maxInds*
 
-	Signal entropy, of feature: fBodyAccMag
+	index of the frequency component with largest magnitude, of feature: fBodyAccMag
 
 *fBodyAccMag-meanFreq()*
 
-	index of the frequency component with largest magnitude, of feature: fBodyAccMag
+	Weighted average of the frequency components to obtain a mean frequency, of feature: fBodyAccMag
 
 *fBodyAccMag-skewness()*
 
-	Weighted average of the frequency components to obtain a mean frequency, of feature: fBodyAccMag
+	skewness of the frequency domain signal, of feature: fBodyAccMag
 
 *fBodyAccMag-kurtosis()*
 
-	skewness of the frequency domain signal, of feature: fBodyAccMag
+	kurtosis of the frequency domain signal, of feature: fBodyAccMag
 
 *fBodyBodyAccJerkMag-mean()*
 
-	kurtosis of the frequency domain signal, of feature: fBodyAccMag
+	Mean value, of feature: fBodyBodyAccJerkMag
 
 *fBodyBodyAccJerkMag-std()*
 
-	Mean value, of feature: fBodyBodyAccJerkMag
+	Standard deviation, of feature: fBodyBodyAccJerkMag
 
 *fBodyBodyAccJerkMag-mad()*
 
-	Standard deviation, of feature: fBodyBodyAccJerkMag
+	Median absolute deviation, of feature: fBodyBodyAccJerkMag
 
 *fBodyBodyAccJerkMag-max()*
 
-	Median absolute deviation, of feature: fBodyBodyAccJerkMag
+	Largest value in array, of feature: fBodyBodyAccJerkMag
 
 *fBodyBodyAccJerkMag-min()*
 
-	Largest value in array, of feature: fBodyBodyAccJerkMag
+	Smallest value in array, of feature: fBodyBodyAccJerkMag
 
 *fBodyBodyAccJerkMag-sma()*
 
-	Smallest value in array, of feature: fBodyBodyAccJerkMag
+	Signal magnitude area, of feature: fBodyBodyAccJerkMag
 
 *fBodyBodyAccJerkMag-energy()*
 
-	Signal magnitude area, of feature: fBodyBodyAccJerkMag
+	Energy measure. Sum of the squares divided by the number of values, of feature: fBodyBodyAccJerkMag
 
 *fBodyBodyAccJerkMag-iqr()*
 
-	Energy measure. Sum of the squares divided by the number of values, of feature: fBodyBodyAccJerkMag
+	Interquartile range, of feature: fBodyBodyAccJerkMag
 
 *fBodyBodyAccJerkMag-entropy()*
 
-	Interquartile range, of feature: fBodyBodyAccJerkMag
+	Signal entropy, of feature: fBodyBodyAccJerkMag
 
 *fBodyBodyAccJerkMag-maxInds*
 
-	Signal entropy, of feature: fBodyBodyAccJerkMag
+	index of the frequency component with largest magnitude, of feature: fBodyBodyAccJerkMag
 
 *fBodyBodyAccJerkMag-meanFreq()*
 
-	index of the frequency component with largest magnitude, of feature: fBodyBodyAccJerkMag
+	Weighted average of the frequency components to obtain a mean frequency, of feature: fBodyBodyAccJerkMag
 
 *fBodyBodyAccJerkMag-skewness()*
 
-	Weighted average of the frequency components to obtain a mean frequency, of feature: fBodyBodyAccJerkMag
+	skewness of the frequency domain signal, of feature: fBodyBodyAccJerkMag
 
 *fBodyBodyAccJerkMag-kurtosis()*
 
-	skewness of the frequency domain signal, of feature: fBodyBodyAccJerkMag
+	kurtosis of the frequency domain signal, of feature: fBodyBodyAccJerkMag
 
 *fBodyBodyGyroMag-mean()*
 
-	kurtosis of the frequency domain signal, of feature: fBodyBodyAccJerkMag
+	Mean value, of feature: fBodyBodyGyroMag
 
 *fBodyBodyGyroMag-std()*
 
-	Mean value, of feature: fBodyBodyGyroMag
+	Standard deviation, of feature: fBodyBodyGyroMag
 
 *fBodyBodyGyroMag-mad()*
 
-	Standard deviation, of feature: fBodyBodyGyroMag
+	Median absolute deviation, of feature: fBodyBodyGyroMag
 
 *fBodyBodyGyroMag-max()*
 
-	Median absolute deviation, of feature: fBodyBodyGyroMag
+	Largest value in array, of feature: fBodyBodyGyroMag
 
 *fBodyBodyGyroMag-min()*
 
-	Largest value in array, of feature: fBodyBodyGyroMag
+	Smallest value in array, of feature: fBodyBodyGyroMag
 
 *fBodyBodyGyroMag-sma()*
 
-	Smallest value in array, of feature: fBodyBodyGyroMag
+	Signal magnitude area, of feature: fBodyBodyGyroMag
 
 *fBodyBodyGyroMag-energy()*
 
-	Signal magnitude area, of feature: fBodyBodyGyroMag
+	Energy measure. Sum of the squares divided by the number of values, of feature: fBodyBodyGyroMag
 
 *fBodyBodyGyroMag-iqr()*
 
-	Energy measure. Sum of the squares divided by the number of values, of feature: fBodyBodyGyroMag
+	Interquartile range, of feature: fBodyBodyGyroMag
 
 *fBodyBodyGyroMag-entropy()*
 
-	Interquartile range, of feature: fBodyBodyGyroMag
+	Signal entropy, of feature: fBodyBodyGyroMag
 
 *fBodyBodyGyroMag-maxInds*
 
-	Signal entropy, of feature: fBodyBodyGyroMag
+	index of the frequency component with largest magnitude, of feature: fBodyBodyGyroMag
 
 *fBodyBodyGyroMag-meanFreq()*
 
-	index of the frequency component with largest magnitude, of feature: fBodyBodyGyroMag
+	Weighted average of the frequency components to obtain a mean frequency, of feature: fBodyBodyGyroMag
 
 *fBodyBodyGyroMag-skewness()*
 
-	Weighted average of the frequency components to obtain a mean frequency, of feature: fBodyBodyGyroMag
+	skewness of the frequency domain signal, of feature: fBodyBodyGyroMag
 
 *fBodyBodyGyroMag-kurtosis()*
 
-	skewness of the frequency domain signal, of feature: fBodyBodyGyroMag
+	kurtosis of the frequency domain signal, of feature: fBodyBodyGyroMag
 
 *fBodyBodyGyroJerkMag-mean()*
 
-	kurtosis of the frequency domain signal, of feature: fBodyBodyGyroMag
+	Mean value, of feature: fBodyBodyGyroJerkMag
 
 *fBodyBodyGyroJerkMag-std()*
 
-	Mean value, of feature: fBodyBodyGyroJerkMag
+	Standard deviation, of feature: fBodyBodyGyroJerkMag
 
 *fBodyBodyGyroJerkMag-mad()*
 
-	Standard deviation, of feature: fBodyBodyGyroJerkMag
+	Median absolute deviation, of feature: fBodyBodyGyroJerkMag
 
 *fBodyBodyGyroJerkMag-max()*
 
-	Median absolute deviation, of feature: fBodyBodyGyroJerkMag
+	Largest value in array, of feature: fBodyBodyGyroJerkMag
 
 *fBodyBodyGyroJerkMag-min()*
 
-	Largest value in array, of feature: fBodyBodyGyroJerkMag
+	Smallest value in array, of feature: fBodyBodyGyroJerkMag
 
 *fBodyBodyGyroJerkMag-sma()*
 
-	Smallest value in array, of feature: fBodyBodyGyroJerkMag
+	Signal magnitude area, of feature: fBodyBodyGyroJerkMag
 
 *fBodyBodyGyroJerkMag-energy()*
 
-	Signal magnitude area, of feature: fBodyBodyGyroJerkMag
+	Energy measure. Sum of the squares divided by the number of values, of feature: fBodyBodyGyroJerkMag
 
 *fBodyBodyGyroJerkMag-iqr()*
 
-	Energy measure. Sum of the squares divided by the number of values, of feature: fBodyBodyGyroJerkMag
+	Interquartile range, of feature: fBodyBodyGyroJerkMag
 
 *fBodyBodyGyroJerkMag-entropy()*
 
-	Interquartile range, of feature: fBodyBodyGyroJerkMag
+	Signal entropy, of feature: fBodyBodyGyroJerkMag
 
 *fBodyBodyGyroJerkMag-maxInds*
 
-	Signal entropy, of feature: fBodyBodyGyroJerkMag
+	index of the frequency component with largest magnitude, of feature: fBodyBodyGyroJerkMag
 
 *fBodyBodyGyroJerkMag-meanFreq()*
 
-	index of the frequency component with largest magnitude, of feature: fBodyBodyGyroJerkMag
+	Weighted average of the frequency components to obtain a mean frequency, of feature: fBodyBodyGyroJerkMag
 
 *fBodyBodyGyroJerkMag-skewness()*
 
-	Weighted average of the frequency components to obtain a mean frequency, of feature: fBodyBodyGyroJerkMag
+	skewness of the frequency domain signal, of feature: fBodyBodyGyroJerkMag
 
 *fBodyBodyGyroJerkMag-kurtosis()*
 
-	skewness of the frequency domain signal, of feature: fBodyBodyGyroJerkMag
+	kurtosis of the frequency domain signal, of feature: fBodyBodyGyroJerkMag
 
 *angle(tBodyAccMean,gravity)*
 
-	kurtosis of the frequency domain signal
+	Angle between tBodyAccMean and gravity)
 
 *angle(tBodyAccJerkMean),gravityMean)*
 
-	kurtosis of the frequency domain signal
+	Angle between tBodyAccJerkMean) and gravityMean)
 
 *angle(tBodyGyroMean,gravityMean)*
 
-	kurtosis of the frequency domain signal
+	Angle between tBodyGyroMean and gravityMean)
 
 *angle(tBodyGyroJerkMean,gravityMean)*
 
-	kurtosis of the frequency domain signal
+	Angle between tBodyGyroJerkMean and gravityMean)
 
 *angle(X,gravityMean)*
 
-	kurtosis of the frequency domain signal
+	Angle between X and gravityMean)
 
 *angle(Y,gravityMean)*
 
-	kurtosis of the frequency domain signal
+	Angle between Y and gravityMean)
 
 *angle(Z,gravityMean)*
 
-	kurtosis of the frequency domain signal
+	Angle between Z and gravityMean)
 
